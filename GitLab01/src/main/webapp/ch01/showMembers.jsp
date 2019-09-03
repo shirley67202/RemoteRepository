@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel='stylesheet' href='${pageContext.request.contextPath}/css/style.css' />
+<link rel='stylesheet' href="<c:url value='/css/style.css' />" />
 <meta charset="UTF-8">
 <title>會員資料</title>
 </head>
@@ -34,7 +34,7 @@
 		</c:forEach>
 	</c:if>
 <p/>
-<a href='${pageContext.request.contextPath}/ch01/index.jsp'>回到會員管理</a>
+<a href="<c:url value='/ch01/index.jsp' />">回到會員管理</a>
 </div>
 </body>
 </html>

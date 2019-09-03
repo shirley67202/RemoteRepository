@@ -1,6 +1,6 @@
 IF OBJECT_ID('dbo.Member', 'U') IS NOT NULL 
   DROP TABLE dbo.Member; 
-
+--
 CREATE TABLE Member(
 	pk   int NOT NULL IDENTITY PRIMARY KEY,
 	id   varchar(32) NULL,
